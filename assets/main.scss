@@ -1,0 +1,134 @@
+---
+---
+
+// Set before the theme import so minima's !default variables pick these up.
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", "Source Han Sans SC", sans-serif;
+$base-font-size: 17px;
+$base-line-height: 1.75;
+$content-width: 42rem;
+$text-color: #1c1917;
+$background-color: #fbfaf8;
+$brand-color: #0b57d0;
+$grey-color: #57534e;
+
+@import "minima";
+
+body {
+  word-wrap: break-word;
+}
+
+.post-content,
+.home {
+  h2, h3, p, li {
+    line-height: 1.75;
+  }
+}
+
+.post-cats {
+  margin-left: 0.35rem;
+}
+
+.category-link {
+  display: inline-block;
+  margin: 0.15rem 0.35rem 0.15rem 0;
+  padding: 0.05rem 0.45rem;
+  border: 1px solid #d6d3d1;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.category-link:hover {
+  border-color: $brand-color;
+}
+
+.category-post-list,
+.post-list {
+  time {
+    color: $grey-color;
+    margin-right: 0.5rem;
+  }
+}
+
+.post-excerpt {
+  margin-top: 0.2rem;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.category-empty {
+  color: $grey-color;
+}
+
+pre,
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+p, li {
+  code {
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    background: #f3f1ec;
+    border-color: #e7e5e4;
+    font-size: 0.92em;
+  }
+}
+
+.highlighter-rouge {
+  margin-bottom: 1.15rem;
+}
+
+.highlighter-rouge .highlight {
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+}
+
+.highlighter-rouge .highlight pre {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+  background: transparent;
+  line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
+}
+
+.highlight {
+  .c, .c1, .cm, .cs { color: #57606a; font-style: italic; }
+  .cp { color: #0550ae; font-weight: 600; }
+  .k, .kd, .kn, .kp, .kr { color: #cf222e; font-weight: 600; }
+  .kt, .nc, .nn { color: #953800; }
+  .nb, .bp { color: #0550ae; }
+  .nf, .nx { color: #8250df; }
+  .na, .nv, .vc, .vg, .vi { color: #953800; }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .dl { color: #0a3069; }
+  .sr { color: #116329; }
+  .ss { color: #0550ae; }
+  .m, .mb, .mf, .mh, .mi, .mo, .il { color: #0550ae; }
+  .o, .ow { color: #cf222e; font-weight: 600; }
+  .nt { color: #116329; }
+  .err { color: #82071e; background: #ffebe9; }
+}
+
+@media screen and (max-width: 600px) {
+  .site-header .wrapper,
+  .page-content .wrapper,
+  .site-footer .wrapper {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .highlighter-rouge .highlight pre {
+    font-size: 0.85rem;
+  }
+
+  .post-title {
+    overflow-wrap: break-word;
+  }
+}

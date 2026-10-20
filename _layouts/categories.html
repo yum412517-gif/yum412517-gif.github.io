@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    <p>文章分成下面三个栏目。每个栏目里，新文章排在前面。</p>
+
+    {%- for item in site.category_order -%}
+      <h2 id="{{ item.id }}">{{ item.name | escape }}</h2>
+      <p>{{ item.description | escape }}</p>
+      {%- assign posts = "" | split: "" -%}
+      {%- for pair in site.categories -%}
+        {%- if pair[0] == item.name -%}
+          {%- assign posts = pair[1] | sort: "date" | reverse -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if posts.size > 0 -%}
+        <ul class="category-post-list">
+          {%- for post in posts -%}
+            <li>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        <p class="category-empty">这个栏目还没有文章。</p>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</article>
