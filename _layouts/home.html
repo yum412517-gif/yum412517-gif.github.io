@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "最新文章" }}</h2>
+    <ul class="post-list">
+      {%- assign posts = site.posts | sort: "date" | reverse -%}
+      {%- for post in posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}
+          {%- if post.categories.size > 0 -%}
+            <span class="post-cats">
+              {%- for cat in post.categories -%}
+                {% include category-link.html name=cat %}
+              {%- endfor -%}
+            </span>
+          {%- endif -%}
+        </span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          <div class="post-excerpt">{{ post.excerpt | markdownify }}</div>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">订阅更新：<a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+  {%- endif -%}
+
+</div>

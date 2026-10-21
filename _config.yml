@@ -1,0 +1,67 @@
+title: AI 每日精选
+description: 精选人工智能新技术、最佳实践与实用干货。
+lang: zh-CN
+timezone: Asia/Shanghai
+author: AI 每日精选
+
+url: https://yum412517-gif.github.io
+baseurl: ""
+
+theme: minima
+markdown: kramdown
+highlighter: rouge
+future: false
+show_excerpts: true
+# Keep category names out of URLs. Default "date" style inserts /:categories/.
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+minima:
+  date_format: "%Y-%m-%d"
+
+header_pages:
+  - about.md
+  - categories.md
+
+# Footer RSS link rendered by minima's social include.
+rss: RSS
+github_username: yum412517-gif
+
+feed:
+  path: feed.xml
+
+# Fixed category order. Names must match post front matter exactly.
+category_order:
+  - name: AI 新技术
+    id: ai-new-tech
+    description: 模型、框架、工具和值得留意的新进展。
+  - name: AI 最佳实践
+    id: ai-best-practices
+    description: 写提示、做评测、上线和协作时更稳妥的做法。
+  - name: AI 实用干货
+    id: ai-practical
+    description: 命令、代码片段和可以立刻复用的技巧。
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: AI 每日精选
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - .bundle

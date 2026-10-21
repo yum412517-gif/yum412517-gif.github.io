@@ -1,0 +1,44 @@
+# Regenerates the GitHub README archive after posts land on main.
+# This does not build or deploy the site. Pages stays
+# "Deploy from a branch", branch main, folder / (root).
+
+name: Update README archive
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "_posts/**"
+      - "scripts/update_readme.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Regenerate README
+        run: python3 scripts/update_readme.py
+
+      - name: Commit README when the archive changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README already matches _posts"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "更新往期目录 [skip readme]"
+          git push origin HEAD:main
