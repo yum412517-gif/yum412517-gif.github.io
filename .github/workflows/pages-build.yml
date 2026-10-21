@@ -1,0 +1,40 @@
+# Builds the Chirpy site on pull requests. Does not deploy.
+# Production publish stays in pages-deploy.yml, which runs on main.
+
+name: Build site
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll b
+        env:
+          JEKYLL_ENV: production
+
+      - name: Test site
+        run: |
+          bundle exec htmlproofer _site \
+            --disable-external \
+            --ignore-urls "/^http:\/\/127\.0\.0\.1/,/^http:\/\/0\.0\.0\.0/,/^http:\/\/localhost/"

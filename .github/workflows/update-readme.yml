@@ -1,6 +1,6 @@
 # Regenerates the GitHub README archive after posts land on main.
-# This does not build or deploy the site. Pages stays
-# "Deploy from a branch", branch main, folder / (root).
+# This does not build or deploy the site. Pages is built by
+# .github/workflows/pages-deploy.yml (source: GitHub Actions).
 
 name: Update README archive
 

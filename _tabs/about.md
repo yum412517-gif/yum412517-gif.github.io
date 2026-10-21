@@ -1,7 +1,7 @@
 ---
-layout: page
-title: 关于
-permalink: /about/
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
 ---
 
 **AI 每日精选** 是一个中文博客，记录人工智能里值得留意的新技术、经过验证的最佳实践，以及可以马上用起来的干货。

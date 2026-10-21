@@ -60,24 +60,29 @@ python3 scripts/update_readme.py
    ```
    ````
 
-4. 把改动合并到 `main`。GitHub Pages 会按现有设置构建站点（Deploy from a branch，分支 `main`，目录 `/`）。文章会出现在首页、对应分类和 [RSS](https://yum412517-gif.github.io/feed.xml)。若这次改动了 `_posts`，Actions 会接着更新 README 往期目录。
+4. 把改动合并到 `main`。站点用 [Chirpy](https://github.com/cotes2020/chirpy-starter) 主题，由 GitHub Actions 工作流 `.github/workflows/pages-deploy.yml` 构建并发布（仓库 Settings → Pages → Source 必须是 **GitHub Actions**，不能再用 “Deploy from a branch”）。文章会出现在首页、对应分类和 [RSS](https://yum412517-gif.github.io/feed.xml)。若这次改动了 `_posts`，另一个 Actions 工作流会接着更新 README 往期目录。
 
 示例见 `_posts/2026-10-20-welcome.md`。
 
 ## 本地预览
+
+需要 Ruby 3.1 或更新版本。
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-浏览器打开 <http://127.0.0.1:4000>。`Gemfile` 使用 `github-pages` gem，版本与 GitHub Pages 构建环境一致。
+浏览器打开 <http://127.0.0.1:4000>。`Gemfile` 使用 `jekyll-theme-chirpy`，不使用 `github-pages` gem。Chirpy 依赖的插件不在 GitHub Pages 的内置白名单里，所以线上构建必须走 Actions。
+
+文章里的 `excerpt` 会在构建时复制到 Chirpy 使用的 `description`，首页卡片和订阅摘要因此仍显示这一句。不要改 `_config.yml` 里文章的 `permalink`（`/:year/:month/:day/:title/`），否则已发布的地址和 README 往期目录会对不上。
+
+不要在仓库里新增同名的 `_layouts` 或 `_includes` 去覆盖主题，除非确实要改 Chirpy 的版式。关于页在 `_tabs/about.md`，侧边栏其它页在 `_tabs/`。
 
 ## 页面
 
 - `/` 文章列表，新文章在前
 - `/about/` 关于
-- `/categories/` 三个栏目
-- `/feed.xml` Atom 订阅（RSS 阅读器可直接使用）
-
-页脚 `_includes/footer.html` 里有一段注释掉的 GitHub Sponsors 按钮，目前不显示。不要删掉注释两边的 `<!-- -->`，除非打算正式启用。
+- `/categories/` 栏目（名称来自文章 front matter）
+- `/archives/` 按时间归档
+- `/feed.xml` Atom 订阅（RSS 阅读器可直接使用，主题自带，最近若干篇）
