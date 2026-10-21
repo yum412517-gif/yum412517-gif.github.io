@@ -1,67 +1,251 @@
-title: AI 每日精选
-description: 精选人工智能新技术、最佳实践与实用干货。
-lang: zh-CN
-timezone: Asia/Shanghai
-author: AI 每日精选
+# The Site Configuration
+# Based on chirpy-starter. Theme files for layouts, includes, and locales
+# come from the jekyll-theme-chirpy gem.
 
-url: https://yum412517-gif.github.io
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+# zh-CN is shipped inside the theme gem.
+lang: zh-CN
+
+# Change to your timezone › https://zones.arilyn.cc
+timezone: Asia/Shanghai
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: AI 每日精选 # the main title
+
+tagline: 每天读一点用得上的人工智能内容：新技术、最佳实践，以及可以立刻动手的干货。 # subtitle; was the Minima homepage intro
+
+description: >- # used by seo meta and the atom feed
+  精选人工智能新技术、最佳实践与实用干货。
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://yum412517-gif.github.io"
+
+github:
+  username: yum412517-gif
+
+twitter:
+  username: # change to your Twitter username
+
+social:
+  # Displayed as the default author of the posts and the copyright owner in the Footer.
+  # Leave post `author` unset so Chirpy uses this name. A string author with no
+  # `_data/authors` entry renders blank.
+  name: AI 每日精选
+  email: # change to your email address
+  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  links:
+    # The first element serves as the copyright owner's link
+    - https://yum412517-gif.github.io
+    - https://github.com/yum412517-gif/yum412517-gif.github.io
+
+# Site Verification Settings
+webmaster_verifications:
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+# Web Analytics Settings
+analytics:
+  google:
+    id: # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
+  fathom:
+    id: # fill in your Fathom Site ID
+
+# Page views settings
+pageviews:
+  provider: # now only supports 'goatcounter'
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+# light — Use the light color scheme
+# dark — Use the dark color scheme
+#
+theme_mode: # [light | dark]
+
+# The CDN endpoint for media resources.
+# Notice that once it is assigned, the CDN url
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+cdn:
+
+# the avatar on sidebar, support local or CORS resources
+avatar:
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: # string, local or CORS resources
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+actions:
+  # Display "Edit this post" action on each post page to encourage contributions.
+  edit_post:
+    enabled: false # set to true to display the "Edit this post" action.
+    url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
+    # Use dynamic or static URL for the edit link.
+    # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
+    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
+    static_url: false # [ true | false ]
+
+comments:
+  # Global switch for the post-comment system. Keeping it empty means disabled.
+  provider: # [disqus | utterances | giscus]
+  # The provider options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    strict: # optional, default to '0'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development | production]
+
+pwa:
+  enabled: true # The option for PWA feature (installable)
+  cache:
+    enabled: true # The option for PWA offline cache
+    # Paths defined here will be excluded from the PWA cache.
+    # Usually its value is the `baseurl` of another website that
+    # shares the same domain name as the current website.
+    deny_paths:
+      # - "/example" # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+
+paginate: 10
+
+# The base URL of your site
 baseurl: ""
 
-theme: minima
-markdown: kramdown
-highlighter: rouge
-future: false
-show_excerpts: true
-# Keep category names out of URLs. Default "date" style inserts /:categories/.
-permalink: /:year/:month/:day/:title/
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
   input: GFM
+  footnote_backlink: "↩︎"
   syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-minima:
-  date_format: "%Y-%m-%d"
-
-header_pages:
-  - about.md
-  - categories.md
-
-# Footer RSS link rendered by minima's social include.
-rss: RSS
-github_username: yum412517-gif
-
-feed:
-  path: feed.xml
-
-# Fixed category order. Names must match post front matter exactly.
-category_order:
-  - name: AI 新技术
-    id: ai-new-tech
-    description: 模型、框架、工具和值得留意的新进展。
-  - name: AI 最佳实践
-    id: ai-best-practices
-    description: 写提示、做评测、上线和协作时更稳妥的做法。
-  - name: AI 实用干货
-    id: ai-practical
-    description: 命令、代码片段和可以立刻复用的技巧。
+collections:
+  tabs:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
-      path: ""
+      path: "" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
-      author: AI 每日精选
+      comments: false # This site has no comment provider.
+      toc: true # Display TOC column in posts.
+      # Date permalinks keep existing post URLs and the README archive
+      # (`scripts/update_readme.py`) working. Chirpy's starter default
+      # is `/posts/:title/`; do not switch back without updating that script.
+      permalink: /:year/:month/:day/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
 
 exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
   - README.md
+  - LICENSE
   - CONTRIBUTING.md
-  - Gemfile
-  - Gemfile.lock
   - scripts
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
   - vendor
   - .bundle
+
+# Category names on posts must stay exactly:
+#   AI 新技术 / AI 最佳实践 / AI 实用干货
+# `slug_mode: default` keeps the Han characters so the three names do not
+# collapse to the same ASCII slug. Liquid's `slugify` filter uses this mode.
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+  slug_mode: default
