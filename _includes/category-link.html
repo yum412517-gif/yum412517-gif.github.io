@@ -4,4 +4,4 @@
     {%- assign cat_id = item.id -%}
   {%- endif -%}
 {%- endfor -%}
-<a class="category-link" href="{{ '/categories/' | relative_url }}#{{ cat_id }}">{{ include.name | escape }}</a>
+<a class="page__taxonomy-item p-category category-link" href="{{ '/categories/' | relative_url }}#{{ cat_id }}" rel="tag">{{ include.name | escape }}</a>

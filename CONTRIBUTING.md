@@ -60,7 +60,7 @@ python3 scripts/update_readme.py
    ```
    ````
 
-4. 把改动合并到 `main`。GitHub Pages 会按现有设置构建站点（Deploy from a branch，分支 `main`，目录 `/`）。文章会出现在首页、对应分类和 [RSS](https://yum412517-gif.github.io/feed.xml)。若这次改动了 `_posts`，Actions 会接着更新 README 往期目录。
+4. 把改动合并到 `main`。GitHub Pages 仍按 Deploy from a branch 构建（分支 `main`，目录 `/`），不需要改成 GitHub Actions。主题是 Minimal Mistakes，用 `_config.yml` 里的 `remote_theme` 引入，皮肤是 `dark`。文章会出现在首页、对应分类和 [RSS](https://yum412517-gif.github.io/feed.xml)。若这次改动了 `_posts`，Actions 会接着更新 README 往期目录。
 
 示例见 `_posts/2026-10-20-welcome.md`。
 
@@ -80,4 +80,4 @@ bundle exec jekyll serve
 - `/categories/` 三个栏目
 - `/feed.xml` Atom 订阅（RSS 阅读器可直接使用）
 
-页脚 `_includes/footer.html` 里有一段注释掉的 GitHub Sponsors 按钮，目前不显示。不要删掉注释两边的 `<!-- -->`，除非打算正式启用。
+页脚 `_includes/footer/custom.html` 里有一段注释掉的 GitHub Sponsors 按钮，目前不显示。不要删掉注释两边的 `<!-- -->`，除非打算正式启用。不要再加回一份 `_includes/footer.html`，那会盖住主题自带的页脚。
