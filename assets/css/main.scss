@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// CJK faces first, then the theme's Latin stack. Skin colors stay on the dark skin.
+$cjk-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", "Source Han Sans SC", sans-serif;
+$cjk-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+body {
+  font-family: $cjk-sans;
+  word-wrap: break-word;
+}
+
+.page__content,
+.archive__item-excerpt {
+  h2,
+  h3,
+  p,
+  li {
+    line-height: 1.75;
+  }
+}
+
+.page__title,
+.archive__item-title {
+  overflow-wrap: break-word;
+}
+
+pre,
+code {
+  font-family: $cjk-mono;
+}
+
+.category-link {
+  margin-inline-end: 0.35rem;
+}

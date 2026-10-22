@@ -2,42 +2,43 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div id="main" role="main">
+  <div class="archive">
+    {%- if page.title -%}
+      <h1 id="page-title" class="page__title">{{ page.title | escape }}</h1>
+    {%- endif -%}
 
-  {{ content }}
+    <div class="page__content">
+      {{ content }}
+    </div>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "最新文章" }}</h2>
-    <ul class="post-list">
+    {%- if site.posts.size > 0 -%}
+      <h3 class="archive__subtitle">{{ page.list_title | default: "最新文章" }}</h3>
+      {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
       {%- assign posts = site.posts | sort: "date" | reverse -%}
       {%- for post in posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}
-          {%- if post.categories.size > 0 -%}
-            <span class="post-cats">
-              {%- for cat in post.categories -%}
-                {% include category-link.html name=cat %}
-              {%- endfor -%}
-            </span>
-          {%- endif -%}
-        </span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          <div class="post-excerpt">{{ post.excerpt | markdownify }}</div>
-        {%- endif -%}
-      </li>
+        <div class="list__item">
+          <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <h2 class="archive__item-title" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | escape }}</a>
+            </h2>
+            <p class="page__meta">
+              <span class="page__meta-date">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+              </span>
+              {%- if post.categories.size > 0 -%}
+                {%- for cat in post.categories -%}
+                  {% include category-link.html name=cat %}
+                {%- endfor -%}
+              {%- endif -%}
+            </p>
+            {%- if site.show_excerpts -%}
+              <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
+            {%- endif -%}
+          </article>
+        </div>
       {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">订阅更新：<a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
-  {%- endif -%}
-
+      <p><a href="{{ '/feed.xml' | relative_url }}">RSS 订阅</a></p>
+    {%- endif -%}
+  </div>
 </div>
