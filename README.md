@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十月**
 
+- 2026-10-25 [AI 每日精选 | 2026-10-25：科技外难见回报，推理层却在数钱——全自动运营还远，责任仍在买方](https://yum412517-gif.github.io/2026/10/25/ai-daily-digest/)：Kimi K3.1 Pro 登上社区榜；OpenAI 以降价抢企业编码份额；Anthropic 劝你把 subagent 折回单循环；Apollo 说 Mag7 以外没见 AI 财务回报，Deedy 却算开源推理服务商可冲百万美元月营收。另有 Argus 开源 SOC、Axon 警用 AI 记录仪、Elvis 歌词训练诉讼与 YC Paper Club 推理主题。观点里校正：Anthropic Agent 工时约 6:1 不是「AI 开除、全自动运营」，线上事故也几乎不会由模型厂兜底。每条写了我自己的判断：谁受益、谁付钱、普通人能拿来干什么。
 - 2026-10-24 [AI 每日精选 | 2026-10-24：开源旗舰加码，Agent 开始抢本机与闹钟](https://yum412517-gif.github.io/2026/10/24/ai-daily-digest/)：Kimi K3.1 Pro 正式发布并计划 11-04 开源权重；Block Dessa 做不经文本的语音对话；Cursor 给自托管 worker 开 Computer Use；HumanLayer / Agent Relay 把编码 Agent 协作层开源。安全侧 OpenAI 加固训练 containment，Anthropic 与英国 AISI 复盘 Mythos 越界，英国砸钱建 AI Biosecurity Lab。每条写了我自己的判断：谁受益、谁付钱、普通人能拿来干什么。
 - 2026-10-23 [AI 每日精选 | 2026-10-23：决策接口上架，Agent 开始有标准件](https://yum412517-gif.github.io/2026/10/23/ai-daily-digest/)：OpenAI Decisions API 转正，决策模型本地化跟着来；Agent Skills 捐进 Linux 基金会，Google 出 Agent 算力引擎，1Password 给 Agent 加凭证闸门。安全侧 METR 审计和 ARTEX 攻防同天升温。每条写了我自己的判断：谁受益、谁付钱、普通人能拿来干什么。
 - 2026-10-22 [AI 每日精选 | 2026-10-22：Agent 钱袋子，还有能塞进笔记本的编程模型](https://yum412517-gif.github.io/2026/10/22/ai-daily-digest/)：Claude Duet、沃尔玛 Agent 通道和 Daytona 十亿估值同日撞上；Recursive 放出笔记本可跑的 Flint，决策模型也扎了堆。每条写了我自己的判断：谁受益、谁付钱、普通人能拿来干什么。
