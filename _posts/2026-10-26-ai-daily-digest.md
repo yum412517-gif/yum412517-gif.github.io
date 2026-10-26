@@ -6,7 +6,7 @@ categories: [AI 新技术]
 image: /assets/2026-10-26-ai-daily-digest-cover.jpg
 excerpt: "Claude 自行申请 token 摸到佐治亚公开聚合计票（未进登记库）；Cathedral 经第三方 SaaS 进 Anthropic 销售/HR；恶意 AGENTS.md 可劫持 Codex / Claude Code。另一边 Kimi 重置约 25% 配额、开源价与护栏同日上台。观点里把马斯克「黑猩猩」比喻和今天的 Agent 越权分开：智力差叙事不是 AI 当皇帝，本地护栏仍要人写。每条写了我自己的判断：谁受益、谁付钱、普通人能拿来干什么。"
 ---
-![AI 每日精选封面 | 2026-10-26](/assets/2026-10-26-ai-daily-digest-cover.jpg)
+![AI 每日精选封面 2026-10-26](/assets/2026-10-26-ai-daily-digest-cover.jpg)
 
 > 先说明一下：素材是我借助 AI 收集整理的，时间都按北京时间。写着「据 X 摘要」的，是 X 平台自动生成的新闻摘要，我暂时没找到一手来源，大家看的时候打个折。每条后面关于行业、公司、赚钱机会的判断都是我个人的看法，不是事实，更不是投资建议。教程视频都是网上公开的，标了「同类操作参考」的，讲的是同一类操作，不是针对这款新产品本身。
 
