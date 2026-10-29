@@ -60,6 +60,11 @@ defaults:
     values:
       layout: post
       author: AI 每日精选
+  - scope:
+      path: ""
+      type: pages
+    values:
+      image: /assets/og-default.jpg
 
 exclude:
   - README.md
