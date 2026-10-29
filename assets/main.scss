@@ -53,6 +53,50 @@ body {
   }
 }
 
+.post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e7e5e4;
+}
+
+.post-nav__link {
+  flex: 1 1 14rem;
+  max-width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e7e5e4;
+  border-radius: 8px;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    border-color: $brand-color;
+  }
+}
+
+.post-nav__link--next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.post-nav__label {
+  display: block;
+  font-size: 0.82rem;
+  color: $grey-color;
+  margin-bottom: 0.25rem;
+}
+
+.post-nav__title {
+  display: block;
+  font-weight: 600;
+  color: $brand-color;
+  line-height: 1.4;
+}
+
 .post-excerpt {
   margin-top: 0.2rem;
 
