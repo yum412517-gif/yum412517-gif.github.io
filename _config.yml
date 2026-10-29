@@ -7,6 +7,9 @@ author: AI 每日精选
 url: https://yum412517-gif.github.io
 baseurl: ""
 
+# Default share image for jekyll-seo-tag (homepage and pages without their own image).
+logo: /assets/og-default.jpg
+
 theme: minima
 markdown: kramdown
 highlighter: rouge
@@ -18,6 +21,7 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 kramdown:
   input: GFM

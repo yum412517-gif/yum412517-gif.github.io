@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yum412517-gif.github.io/sitemap.xml
