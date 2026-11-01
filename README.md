@@ -12,6 +12,10 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 ## 2026
 
+**十一月**
+
+- 2026-11-01 [AI 每日精选 | 2026-11-01：ChatGPT×Codex 共用额度；把成本账算清楚](https://yum412517-gif.github.io/2026/11/01/ai-daily-digest/)：头条：ChatGPT 与 Codex 自 12 月起按 token 共用用量。观点谈成本：订阅额度账单、工厂编程成本、Flash 与 27B 的口径差、机房电费与社会许可的隐性账，以及 ernd 这类 AI 账单卡。另有 DeepSeek Superagent、Memdoor/GVS5H、YC Odin。
+
 **十月**
 
 - 2026-10-31 [AI 每日精选 | 2026-10-31：千问接入 Apple 智能；Black October；各国 AI 对照](https://yum412517-gif.github.io/2026/10/31/ai-daily-digest/)：头条：Apple 中国大陆上线首批 Apple 智能，部分体验接入阿里千问。观点叠 Black October 与各国对照，并追问数据存哪儿、为何是阿里不是字节、跨国适配是否像换模型 Code 一样轻松。另有 Suncatcher、Computer Use GA、Private Intelligence、Loop-9B、Anthropic Ultra。
