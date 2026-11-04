@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十一月**
 
+- 2026-11-04 [AI 每日精选 | 2026-11-04：物理层开跑；能动、能过审、能托付](https://yum412517-gif.github.io/2026/11/04/ai-daily-digest/)：头条：OpenAI 物理世界工程 + Google×Mercor PLE。观点谈 Agent 进物理层的三道门：谁能动仿真与机具、谁能过执业硬门、谁能被托付身份与授权。另有 Liber-0、Apollo World / MoWorld 2.0、腾讯混元 Hy4、乌镇智能体身份、Fal 约 $16B、大陆 Apple 智能 Beta。
 - 2026-11-03 [AI 每日精选 | 2026-11-03：Anthropic S-1「或将触及」RSI；能用、能证、能关](https://yum412517-gif.github.io/2026/11/03/ai-daily-digest/)：头条：Anthropic 修订 S-1/A，风险侧称或将触及 RSI 阈值，单季营收约 $17B。观点谈 Agent 的三道闸：谁能用、谁能证明跑的是哪份权重、谁能一键关停。另有 LifeVal、CrowdStrike Kill Switch、Hydrogen-1.0、Salesforce×Cresta、Tutor $75M、YC W27 准时截止已过。
 - 2026-11-02 [AI 每日精选 | 2026-11-02：美团 LongCat-2.5；主权账本与刷榜账本](https://yum412517-gif.github.io/2026/11/02/ai-daily-digest/)：头条：美团 LongCat-2.5 长程多模态 MoE。观点谈主权账本与刷榜账本：OpenAI compute campuses、阿布扎比四协议、韩国 2027 AI/芯片预算，对照 GDPx 与 Particle 的单价口径。另有 Notion 积分切日、OpenCode MAU、YC W27 截止。
 - 2026-11-01 [AI 每日精选 | 2026-11-01：ChatGPT×Codex 共用额度；把成本账算清楚](https://yum412517-gif.github.io/2026/11/01/ai-daily-digest/)：头条：ChatGPT 与 Codex 自 12 月起按 token 共用用量。观点谈成本：订阅额度账单、工厂编程成本、Flash 与 27B 的口径差、机房电费与社会许可的隐性账，以及 ernd 这类 AI 账单卡。另有 DeepSeek Superagent、Memdoor/GVS5H、YC Odin。
