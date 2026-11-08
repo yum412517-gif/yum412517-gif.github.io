@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十一月**
 
+- 2026-11-08 [AI 每日精选 | 2026-11-08：改题、明文、货架](https://yum412517-gif.github.io/2026/11/08/ai-daily-digest/)：头条：unLAP MaxxBench 把 DeepSWE 约 89 道题改指令/起始码，拉开公开榜附近模型的约 23 pp 分差。补录 Apiiro 对 Claude Code settings.local.json 明文密钥的披露；Launch YC Theseus Robotics 把轮式人形推进超市货道。观点谈薄日里改题尺子、批准明文与货架最后三十米。
 - 2026-11-07 [AI 每日精选 | 2026-11-07：frontier 压假设；证明、尺子、梦境](https://yum412517-gif.github.io/2026/11/07/ai-daily-digest/)：头条：DeepMind 在遗留 1024-bit RSA 上给出密码分析加速，Physical Superintelligence 用 Lean 机检 Aaronson–Ambainis 猜想证明。观点谈 frontier 往理论、湿实验尺子和长程记忆里伸手的三道账。另有 BioBasicsBench、agent memory/dreaming、FMF 越狱评级、Archimedes/Reynolds、Miracle、LifeArena，以及 Launch YC Stacktrace/Taan/Proto/Cyclon/Trepo/Organizely。
 - 2026-11-06 [AI 每日精选 | 2026-11-06：钱包进 Claude；钱包、终端、闸](https://yum412517-gif.github.io/2026/11/06/ai-daily-digest/)：头条：OpenAI GPT‑6 Cyber 与 Google Gemini Omni 1.2 Flash 同窗放量。观点谈 Agent 的三道账：谁碰得到钱包、谁摸得到终端、谁过得了闸。另有 Claude×Plaid 理财、Dropbox×Tigris、Muse/Edits/ElevenMusic、真机 Harness 与工信部进网、Teammates/Cursor Live Apps、Clutch 谈判与 METR 约 2×。
 - 2026-11-05 [AI 每日精选 | 2026-11-05：写码抢壳；壳、闸、邻居](https://yum412517-gif.github.io/2026/11/05/ai-daily-digest/)：头条：OpenAI×Pierre、Meta×Conductor、Factory×HumanLayer，外加 ChatGPT×Codex 共享用量与 Claude Code 约 99% 降本。观点谈写码 Agent 的三道账：谁抢到壳、谁过得了闸、算力能不能过邻居。另有 Images 2.6、Ripple / Kimi / SWE-2 Flash、数据中心选票与 Community Compact、Uber Agent 冷数据。
