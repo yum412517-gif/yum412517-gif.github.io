@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十一月**
 
+- 2026-11-11 [AI 每日精选 | 2026-11-11：开门、窗口、门槛](https://yum412517-gif.github.io/2026/11/11/ai-daily-digest/)：头条：Google 宣布 Gemini 4 Carbon 现已向付费开发者、企业、科学家与消费者开放，并面向 AI Ultra 用户在 Antigravity、Gemini 应用与 Search 的 AI Mode 推送；官方仍把 Argon 定位为大多数软件工程与知识工作的首选，Carbon 用更多 token 做深探、推理与加长验证。同日通义上线 Qwen4-Max 预览（仅 Token Plan，预览期至 11-25 24:00 后下线），并开源 Qwen Code 1.0 Preview；文心发布 ERNIE 5.5 Flash Preview。观点谈开门、窗口与门槛。
 - 2026-11-10 [AI 每日精选 | 2026-11-10：分层、通道、急停](https://yum412517-gif.github.io/2026/11/10/ai-daily-digest/)：头条：Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，自称同一底层模型；Fable 面向大众，Mythos 经 Life Sciences / Cyber Verification 向受审机构开放，API 价相对 5.1 约降 20%。同日 Cisco AI Defense 与 IBM Concert Protect 把 Mythos 推进企业安全产品通道；OpenAI 介绍研究侧 Control Room，自称决策后约 35 秒内可阻断后续输出。观点谈分层、通道与急停三道硬台阶。
 - 2026-11-09 [AI 每日精选 | 2026-11-09：免费、配方、注资](https://yum412517-gif.github.io/2026/11/09/ai-daily-digest/)：头条：LG AI Research 在 NVIDIA AI Day Seoul 开放 K-EXAONE 2.5 免费 API，自称相对 8 月版约 24 项综合指标提升逾 70%，并瞄准 2027-01 完成 frontier 级三轮模。同日 NVIDIA 为韩国四款开源模放出 Dynamo B200 配方，并在 MSIT 论坛宣布投资 Point2、计划追加 Motif / RLWRLD / Upstage。观点谈首尔一日里的免费、配方与注资三道硬台阶。
 - 2026-11-08 [AI 每日精选 | 2026-11-08：改题、明文、货架](https://yum412517-gif.github.io/2026/11/08/ai-daily-digest/)：头条：unLAP MaxxBench 把 DeepSWE 约 89 道题改指令/起始码，拉开公开榜附近模型的约 23 pp 分差。补录 Apiiro 对 Claude Code settings.local.json 明文密钥的披露；Launch YC Theseus Robotics 把轮式人形推进超市货道。观点谈薄日里改题尺子、批准明文与货架最后三十米。
