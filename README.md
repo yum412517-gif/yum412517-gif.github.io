@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十一月**
 
+- 2026-11-22 [AI 每日精选 | 2026-11-22：数据要被读、要过别人的手，先看默认拦不拦、留不留、出了事谁通知你](https://yum412517-gif.github.io/2026/11/22/ai-daily-digest/)：头条：OpenRouter 发布推理提供商的数据处理事件说明，称在与研究人员和提供商核实后，已将三家提供商移出平台，并从 Zero Data Retention 资格中移除 125 个端点，同时通知了可能受影响的客户；官方写这些发现并未显示 OpenRouter 自身遭到入侵。补录 11-20 的 Signal 更新，限制系统级 AI 智能体读取屏幕上的对话。观点是数据要被读、要过别人的手，先看默认拦不拦、留不留、出了事谁通知你。
 - 2026-11-21 [AI 每日精选 | 2026-11-21：新能力落到自己这边了，先看它跑在哪、能碰什么、出格谁来拦](https://yum412517-gif.github.io/2026/11/21/ai-daily-digest/)：头条：补录 11-19 的 Gemini 应用 Mac computer use，可在隔离窗口里操作本地文件、桌面应用和网页；同日 Tool Retrieval 以预览形式按需加载工具参数。ChatGPT Space 在 11-20 开始向 18 岁及以上的 Plus 用户全球推开。Google 还在工具调用执行前加上 Preview 中的 Semantic governance policies，并把 Agent Anomaly Detection 的 Private Preview 扩到云外智能体。观点是新能力落到自己这边了，先看它跑在哪、能碰什么、出格谁来拦。
 - 2026-11-19 [AI 每日精选 | 2026-11-19：先看它落在哪一档、谁能用、改动由谁批](https://yum412517-gif.github.io/2026/11/19/ai-daily-digest/)：头条：Google 发布 Gemini 4 Neon，官方把它放在 Carbon 与 Hydrogen 之间，面向复杂软件工程、知识工作和科学流程，并已在 GitHub Copilot 正式可用。同日 Genie 4 向符合条件的 Google AI Ultra 订阅者开放，Stitch Loop 仍以拉取请求交回团队审批；另有 OpenAI 为可等待的后台请求给出低于 Standard 的窗口价。观点是先看它落在哪一档、谁能用、改动由谁批。
 - 2026-11-18 [AI 每日精选 | 2026-11-18：新能力进了办公桌，先看它接进哪一层、谁来授权](https://yum412517-gif.github.io/2026/11/18/ai-daily-digest/)：头条：OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol，官方副题写成面向专业工作的新标准，即日起进入 ChatGPT Work 与 Codex，并已出现在 Microsoft Foundry、GitHub Copilot、Vercel AI Gateway 与 Amazon Bedrock。同日微软 Ignite 把 Office 放进 Copilot 应用、让 Copilot Home 一般可用，并与 Salesforce 宣布 Copilotforce；观点谈新能力进了办公桌之后，先看它接进哪一层、谁来授权。
