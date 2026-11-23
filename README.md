@@ -14,6 +14,7 @@ RSS：[/feed.xml](https://yum412517-gif.github.io/feed.xml)
 
 **十一月**
 
+- 2026-11-23 [AI 每日精选 | 2026-11-23：正式开放了，先看谁能用、往后怎么计费、它能看见什么](https://yum412517-gif.github.io/2026/11/23/ai-daily-digest/)：头条：沃尔玛官方账号宣布面向 AI 购物代理的 Agent Gateway 正式上线，并先接入 Meta 的 Muse，用于在沃尔玛网站代客查找和购买黑五商品；智谱发布官方博文，介绍 GLM-5.4 为该公司首个 Loop Transformer，并向 GLM Coding Plan 用户开放。IT之家和观点网还转述阿里云公告，称 AgentLoop 的记忆库、经验库及优化任务将自 12 月 7 日起按 AI Credits 实际消耗量计费，今晚仍未核到带这一日期的官网公告原文。观点是正式开放了，先看谁能用、往后怎么计费、它能看见什么。
 - 2026-11-22 [AI 每日精选 | 2026-11-22：数据要被读、要过别人的手，先看默认拦不拦、留不留、出了事谁通知你](https://yum412517-gif.github.io/2026/11/22/ai-daily-digest/)：头条：OpenRouter 发布推理提供商的数据处理事件说明，称在与研究人员和提供商核实后，已将三家提供商移出平台，并从 Zero Data Retention 资格中移除 125 个端点，同时通知了可能受影响的客户；官方写这些发现并未显示 OpenRouter 自身遭到入侵。补录 11-20 的 Signal 更新，限制系统级 AI 智能体读取屏幕上的对话。观点是数据要被读、要过别人的手，先看默认拦不拦、留不留、出了事谁通知你。
 - 2026-11-21 [AI 每日精选 | 2026-11-21：新能力落到自己这边了，先看它跑在哪、能碰什么、出格谁来拦](https://yum412517-gif.github.io/2026/11/21/ai-daily-digest/)：头条：补录 11-19 的 Gemini 应用 Mac computer use，可在隔离窗口里操作本地文件、桌面应用和网页；同日 Tool Retrieval 以预览形式按需加载工具参数。ChatGPT Space 在 11-20 开始向 18 岁及以上的 Plus 用户全球推开。Google 还在工具调用执行前加上 Preview 中的 Semantic governance policies，并把 Agent Anomaly Detection 的 Private Preview 扩到云外智能体。观点是新能力落到自己这边了，先看它跑在哪、能碰什么、出格谁来拦。
 - 2026-11-19 [AI 每日精选 | 2026-11-19：先看它落在哪一档、谁能用、改动由谁批](https://yum412517-gif.github.io/2026/11/19/ai-daily-digest/)：头条：Google 发布 Gemini 4 Neon，官方把它放在 Carbon 与 Hydrogen 之间，面向复杂软件工程、知识工作和科学流程，并已在 GitHub Copilot 正式可用。同日 Genie 4 向符合条件的 Google AI Ultra 订阅者开放，Stitch Loop 仍以拉取请求交回团队审批；另有 OpenAI 为可等待的后台请求给出低于 Standard 的窗口价。观点是先看它落在哪一档、谁能用、改动由谁批。
